@@ -1,9 +1,9 @@
-package com.life_manager.task.service;
+package com.manager.task.service;
 
-import com.life_manager.task.domain.TaskDomain;
-import com.life_manager.task.dto.SaveTaskRequest;
-import com.life_manager.task.mapper.TaskMapper;
-import com.life_manager.task.repository.TaskRepository;
+import com.manager.task.domain.TaskDomain;
+import com.manager.task.dto.SaveTaskRequest;
+import com.manager.task.mapper.TaskMapper;
+import com.manager.task.repository.TaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

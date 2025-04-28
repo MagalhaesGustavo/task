@@ -1,10 +1,9 @@
-package com.life_manager.task.mapper;
+package com.manager.task.mapper;
 
-import com.life_manager.task.domain.TaskDomain;
-import com.life_manager.task.dto.SaveTaskRequest;
-import com.life_manager.task.dto.SaveTaskResponse;
+import com.manager.task.domain.TaskDomain;
+import com.manager.task.dto.SaveTaskRequest;
+import com.manager.task.dto.SaveTaskResponse;
 import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
 
 @Mapper()

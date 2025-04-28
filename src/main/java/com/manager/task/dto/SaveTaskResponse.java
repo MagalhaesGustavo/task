@@ -1,7 +1,9 @@
-package com.life_manager.task.dto;
+package com.manager.task.dto;
 
-import jakarta.validation.constraints.NotBlank;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
@@ -9,14 +11,11 @@ import java.time.LocalDateTime;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class SaveTaskRequest {
-    @NotBlank
+public class SaveTaskResponse {
+    String id;
     String title;
-    @NotBlank
     String description;
-    @NotBlank
     String owner;
-    @NotBlank
     String status;
     LocalDateTime creationDate;
     LocalDateTime updateDate;

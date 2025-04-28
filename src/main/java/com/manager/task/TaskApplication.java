@@ -1,4 +1,4 @@
-package com.life_manager.task;
+package com.manager.task;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
